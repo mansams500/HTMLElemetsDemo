@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <body>
+                <!--Template structure 1-->
+                <template id="book-template">
+                   <li><span class="title"></span> &mdash; <span class="author"></span></li>
+                </template>
+                
+                <!--Template structure 2-->
+                <template id="book-template-2">
+                     <li><span class="author"></span>'s classic novel <span class="title"></span></li>
+                </template>
+                      
+                      <ul id="books"></ul>
+                      
+                      <fieldset id="templates">
+                        <legend>Choose template</legend>
+                        
+                        <label>
+                          <input type="radio" name="template" value="book-template" checked> Template One
+                        </label>
+                        <label>
+                          <input type="radio" name="template" value="book-template-2"> Template Two
+                        </label>
+                      </fieldset> <script src="template_app.js"></script>
+               
+            </body>
+        </head>
+    </html>
